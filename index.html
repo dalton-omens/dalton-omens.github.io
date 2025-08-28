@@ -56,6 +56,57 @@
           </tbody></table>
 
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="omens2025_stop()" onmouseover="omens2025_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='omens2025_image'>
+                    <img src='images/omens2025_after.png' width=100%>
+                  </div>
+                  <div class="two" id='omens2025_image_before'>
+                    <img src='images/omens2025_before.png' width=100%>
+                  </div>
+                </div>
+                <script type="text/javascript">
+                  function omens2025_start() {
+                    document.getElementById('omens2025_image').style.opacity = "1";
+                    document.getElementById('omens2025_image_before').style.opacity = "0";
+                  }
+
+                  function omens2025_stop() {
+                    document.getElementById('omens2025_image').style.opacity = "0";
+                    document.getElementById('omens2025_image_before').style.opacity = "1";
+                  }
+                  omens2025_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2508.08429">
+                  <span class="papertitle">Improving Facial Rig Semantics for Tracking and Retargeting</span>
+                </a>
+                <br>
+                <strong>Dalton Omens</strong>,
+                <a href="https://www.linkedin.com/in/allise-thurman">Allise Thurman</a>,
+                <a href="https://www.linkedin.com/in/jihun-yu-260bb17/">Jihun Yu</a>,
+                <a href="https://physbam.stanford.edu/~fedkiw/">Ron Fedkiw</a>
+                <br>
+                <em>arXiv</em>, 2025
+                <br>
+                <a href="https://dalton-omens.github.io/">project page (TBA)</a>
+                /
+                <a href="https://dalton-omens.github.io/data/omens2025.pdf">paper</a>
+                /
+                <a href="https://arxiv.org/abs/2508.08429">arXiv</a>
+                /
+                <a href="https://dalton-omens.github.io/">video (TBA)</a>
+                /
+                <a href="https://dalton-omens.github.io/">code (TBA)</a>
+                <p></p>
+                <p>
+        				Using carefully captured calibration expressions can improve the semantic accuracy of facial retargeting. Implicit differentiation can be applied to black-box or non-differentiable trackers to fine-tune retargeting results for an even better result.
+                </p>
+              </td>
+            </tr>
+
             <tr onmouseout="jin2024_stop()" onmouseover="jin2024_start()">
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <div class="one">
